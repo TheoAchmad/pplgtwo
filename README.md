@@ -1,144 +1,21 @@
+<!DOCTYPE html>
 <html>
- <head>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="pplg2.css">
- </head>
- <body>
-  <div class="header">
-   <img src="FOTO/wwww.jpg"/>
-   <div class="overlay">
-    <h1>
-     PPLG 2
-    </h1>
-    <p>
-     Dapatkan lebih banyak informasi tentang kami dan ikuti cerita
-     <br>
-     kerandoman kami semua
-    </p>
-   </div>
-  </div>
-  <div class="menu">
-   <a href="absensi.html" class="item">
-    <i class="fas fa-calendar-check">
-    </i>
-    <p>
-     ABSENSI SISWA
-    </p>
-</a>
-   <a href="" class="item">
-    <i class="fas fa-users-cog">
-    </i>
-    <p>
-     STRUKTUR ORGANISASI KELAS
-    </p>
-</a>
-   <a href="" class="item">
-    <i class="fas fa-user-graduate">
-    </i>
-    <p>
-     PROFIL SISWA
-    </p>
-</a>
-   <a href="" class="item">
-    <i class="fas fa-history">
-    </i>
-    <p>
-     HISTORY
-    </p>
-</a>
-  </div>
-  <div class="highlight">
-   <h2>
-    PPLG 2 <mark>HIGHLIGHT</mark>
-   </h2>
-   <h2 class="kata2">
-    First step towards the future!!
-   </h2>
-   <div class="kartu">
-    <div class="card">
-     <img height="200" src="FOTO/agustus.jpg" width="200"/>
-     <p>
-      14 Agustus 2024
-      <br/>
-      Lomba Agustusan
-     </p>
-    </div>
-    <div class="card">
-     <img alt="Group photo of students" height="200" src="FOTO/pilkasa.jpg" width="200"/>
-     <p>
-      11 Oktober 2024
-      <br/>
-      Pilkasa 2024
-     </p>
-    </div>
-    <div class="card">
-     <img alt="Students celebrating a religious event" height="200" src="FOTO/maulid.jpg" width="200"/>
-     <p>
-      14 September 2024
-      <br/>
-      Maulid Nabi Muhammad SAW
-     </p>
-    </div>
-   </div>
-  </div>
-  <div class="lebih">
-    <button>
-     lebih banyak &gt;
+  <body>
+    <h1>intaaaaaa masiii marahhh yaaa??</h1>
+    <img src="IMG_20241124_023550.jpg" width="100%" />
+    <h1>maaafinnn ezaaaa yaaaaa??</h1>
+    <button id="btn_mau" onclick="alert('trimakasiiii intaaaaa baikannn yaaaaa :D')">iya</button>&nbsp;
+    <button id="btn_gamau" onclick="gamau(this)" style="position: absolute">
+      ga
     </button>
-   </div>
-  <div class="orang">
-   <div class="org">
-    <h3>
-     36
-    </h3>
-    <p>
-     Jumlah Siswa
-    </p>
-   </div>
-   <div class="org">
-    <h3>
-     18
-    </h3>
-    <p>
-     Laki - Laki
-    </p>
-   </div>
-   <div class="org">
-    <h3>
-     18
-    </h3>
-    <p>
-     Perempuan
-    </p>
-   </div>
-   <div class="org">
-    <h3>
-     6
-    </h3>
-    <p>
-     Pengurus Kelas
-    </p>
-   </div>
-  </div>
-  <div class="copyright">
-   <h2>
-    PPLG 2
-   </h2>
-   <br>
-   <br>
-   <div class="social">
-    <p>
-     <i class="fab fa-instagram">
-     </i>
-     xplg.two2_
-    </p>
-    <p>
-     <i class="fab fa-whatsapp">
-     </i>
-     Chat si Admin ~~~> 082232191294
-    </p>
-   </div>
-  </div>
- </body>
+  </body>
+  <script>
+    function gamau(id) {
+      var mau = document.getElementById("btn_mau");
+      var i = Math.floor(Math.random() * 300) + 1;
+      var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+      id.style.left = i + "px";
+      id.style.top = j + "px";
+    }
+  </script>
 </html>
